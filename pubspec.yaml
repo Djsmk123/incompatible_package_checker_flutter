@@ -1,0 +1,18 @@
+name: incompatible_package_checker
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+# dependencies:
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
+dependencies:
+  html: ^0.15.4
+  http: ^0.13.6
+  pubspec_parse: ^1.2.3
