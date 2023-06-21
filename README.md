@@ -19,6 +19,8 @@ Incompatible Package Checker for Flutter  The Incompatible Package Checker for F
 
   ` dart run incompatible_package_checker `
 
+  
+
 ##  Note: by default,All the platforms(Android, iOS, Windows,Linux,MacOS,Web) will be considered and result will be available for all platforms but in case you want only for specific platforms then pass values in command arguments.
 
 **For Example**
@@ -26,7 +28,8 @@ Incompatible Package Checker for Flutter  The Incompatible Package Checker for F
  dart run incompatible_package_checker android,ios,web 
  
  ```
-
+# Output
+![output](./assets/ouput.png)
  # Available platforms
 - For Android : `android`
 - For iOS : `ios`

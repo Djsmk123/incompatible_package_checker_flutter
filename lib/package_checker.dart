@@ -9,7 +9,7 @@ Future<Map<String, List<String>>> checkIncompatiblePackages(
     incompatiblePackages[platform] = [];
   }
   for (var package in dependencies.keys) {
-    if (package != "flutter") {
+    if (package != "flutter" || package == "incompatible_package_checker") {
       final response = await packageSupportsPlatform(package);
       for (var platform in platforms) {
         if (!response.contains(platform.toUpperCase())) {
