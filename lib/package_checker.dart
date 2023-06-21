@@ -9,7 +9,7 @@ Future<Map<String, List<String>>> checkIncompatiblePackages(
     incompatiblePackages[platform] = [];
   }
   for (var package in dependencies.keys) {
-    if (package != "flutter" && package != "incompatible_package_checker") {
+    if (package != "flutter" && package!="incompatible_package_checker") {
       final response = await packageSupportsPlatform(package);
       for (var platform in platforms) {
         if (!response.contains(platform.toUpperCase())) {
@@ -51,7 +51,7 @@ void printStats(
     List<String> incompatiblePackages, String platform, int totalPackages) {
   double incompatiblePercentage =
       (incompatiblePackages.length / totalPackages) * 100;
-  print('Platform: $platform');
+  print('Platform: ${platform.toUpperCase()}');
   print('Total Packages: $totalPackages');
   print('Incompatible Packages: ${incompatiblePackages.length}');
   print('Percentage of Incompatible Packages: $incompatiblePercentage%');
@@ -60,3 +60,4 @@ void printStats(
     print('- $package');
   }
 }
+

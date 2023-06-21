@@ -21,6 +21,8 @@ Future<void> run(List<String> arguments) async {
   for (var platform in platforms) {
     printStats(
         incompatiblePackages[platform]!, platform, dependencies.keys.length);
+    print(
+        "....................................................................................................\n\n");
   }
 }
 

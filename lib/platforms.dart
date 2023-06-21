@@ -22,5 +22,5 @@ List<String> platformCheck(
     }
     return platform;
   }
-  return defaultPlatforms.map((e) => e.toString()).toList();
+  return defaultPlatforms.map((e) => e.name.toString()).toList();
 }
