@@ -7,7 +7,7 @@ Incompatible Package Checker for Flutter  The Incompatible Package Checker for F
 - Add the dependency to your pubspec.yml file
   ```
   dependencies:
-    incompatible_package_checker: ^1.0.0
+    incompatible_package_checker: ^1.0.0+1
     
     ```
 ## Usage
@@ -29,7 +29,7 @@ Incompatible Package Checker for Flutter  The Incompatible Package Checker for F
  
  ```
 # Output
-![output](./assets/ouput.png)
+![output](https://raw.githubusercontent.com/Djsmk123/incompatible_package_checker_flutter/main/assets/ouput.png)
  # Available platforms
 - For Android : `android`
 - For iOS : `ios`
