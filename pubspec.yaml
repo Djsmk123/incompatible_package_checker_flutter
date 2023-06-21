@@ -1,10 +1,11 @@
 name: incompatible_package_checker
-description: A sample command-line application.
+description: A sample command-line application to check for incompatible packages accross platforms.
+homepage: "https://smkwinner.vercel.app/"
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/Djsmk123/incompatible_package_checker_flutter
 
 environment:
-  sdk: '>=2.19.6 <3.0.0'
+  sdk: '>=2.19.6 <4.0.0'
 
 # dependencies:
 #   path: ^1.8.0
