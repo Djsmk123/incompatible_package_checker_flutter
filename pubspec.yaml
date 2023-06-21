@@ -1,5 +1,5 @@
 name: incompatible_package_checker
-description: A sample command-line application to check for incompatible packages accross platforms.
+description: Incompatible Package Checker for Flutter  The Incompatible Package Checker for Flutter is a useful tool for Flutter developers. This plugin scans your Flutter project for any incompatible packages or dependencies that may cause conflicts or errors during runtime.
 homepage: "https://smkwinner.vercel.app/"
 version: 1.0.0
 repository: https://github.com/Djsmk123/incompatible_package_checker_flutter
