@@ -1,3 +1,4 @@
+/// Enum representing various platforms.
 enum Platforms {
   android,
   ios,
@@ -7,6 +8,9 @@ enum Platforms {
   web,
 }
 
+/// Checks and validates the platforms based on the provided arguments.
+/// If arguments are empty, returns the default platforms.
+/// If arguments are provided, checks if they are valid platforms and returns them.
 List<String> platformCheck(
     List<String> arguments, List<Platforms> defaultPlatforms) {
   if (arguments.isNotEmpty) {
